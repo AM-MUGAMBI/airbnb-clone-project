@@ -313,3 +313,37 @@ GitHub Actions runs tests and builds a Docker image.
 If successful, the image is pushed to Docker Hub or a registry.
 
 The app is deployed to the staging or production server.
+
+🔐 API Security
+
+Ensuring the security of our backend APIs is critical to protect user data, prevent abuse, and maintain trust across the platform. Below are the key security measures implemented in this project, along with their importance in different areas of the system.
+
+🔑 Authentication
+
+We implement secure authentication using JSON Web Tokens (JWT) to verify the identity of users accessing the platform.
+Why it's important: This protects access to personal accounts and ensures that only legitimate users can perform actions such as bookings or listing properties.
+
+🔒 Authorization
+
+Role-based access control (RBAC) is used to ensure users only have permission to access or modify resources relevant to their role (e.g., guests can’t edit others’ listings).
+Why it's important: This prevents unauthorized access to sensitive data and actions, such as modifying another user's property or viewing admin-level data.
+
+🚫 Rate Limiting
+
+Rate limiting is applied to API endpoints to prevent abuse, such as brute-force login attempts or spammy requests.
+Why it's important: This protects the platform from denial-of-service (DoS) attacks and ensures fair usage of resources.
+
+🛡️ Data Validation & Sanitization
+
+All incoming data is validated and sanitized to prevent injection attacks, such as SQL injection and cross-site scripting (XSS).
+Why it's important: This ensures system integrity by preventing malicious data from compromising the application or database.
+
+🔐 HTTPS Encryption
+
+All API traffic is secured using HTTPS to encrypt data in transit between clients and the server.
+Why it's important: This protects sensitive information (like login credentials and payment details) from being intercepted over the network.
+
+💳 Payment Security
+
+Although we use a mock payment system, in a production environment we would integrate a secure third-party payment processor (e.g., Stripe) that complies with PCI-DSS standards.
+Why it's important: Protects users’ financial data and ensures safe transactions.
