@@ -71,3 +71,37 @@ Sets up and maintains infrastructure, deployment pipelines, and monitoring tools
 Automates development, testing, and deployment processes.
 
 Ensures system reliability, scalability, and uptime.
+
+This project leverages a modern technology stack to ensure performance, scalability, and maintainability. Below is a list of the core technologies used and their purposes:
+
+🌐 Django
+
+Purpose: A high-level Python web framework used to build secure and maintainable web applications quickly. In this project, Django is used to build RESTful APIs and manage the backend logic.
+
+🗃️ PostgreSQL
+
+Purpose: A powerful, open-source relational database system. It stores and manages the project's structured data efficiently, offering features like data integrity, concurrency, and reliability.
+
+🔍 GraphQL
+
+Purpose: A query language for APIs and a runtime for executing those queries. Used in this project to provide flexible and efficient data retrieval between the frontend and backend.
+
+⚙️ Django REST Framework (DRF)
+
+Purpose: An extension for Django that simplifies the creation of RESTful APIs. It provides tools for authentication, serialization, and routing.
+
+🧪 Pytest
+
+Purpose: A testing framework for Python used to write and run unit and integration tests, ensuring the application behaves as expected.
+
+🐳 Docker
+
+Purpose: A containerization tool used to package the application and its dependencies into portable containers, making development, testing, and deployment consistent across environments.
+
+🌍 Nginx
+
+Purpose: A high-performance web server and reverse proxy used to serve the application in production, handle static files, and manage load balancing.
+
+☁️ AWS (Amazon Web Services)
+
+Purpose: A cloud computing platform used to deploy and scale the application infrastructure, ensuring high availability and performance.
