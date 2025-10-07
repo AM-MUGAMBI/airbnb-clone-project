@@ -71,7 +71,7 @@ Sets up and maintains infrastructure, deployment pipelines, and monitoring tools
 Automates development, testing, and deployment processes.
 
 Ensures system reliability, scalability, and uptime.
-
+🛠️ Technology Stack
 This project leverages a modern technology stack to ensure performance, scalability, and maintainability. Below is a list of the core technologies used and their purposes:
 
 🌐 Django
